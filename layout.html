@@ -3,6 +3,7 @@
   <head>
     <title>MagiKards</title>
     <link rel="stylesheet" href="styles/bootstrap.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <nav>
@@ -13,14 +14,33 @@
               <img src="" style="width: 15px; border-radius: 100%" />Username</a
             >
           </div>
+          <div class="col text-center">MagiKards</div>
           <div class="col text-end">
             <a href="#" class="btn btn-outline-secondary">Quit Game</a>
           </div>
         </div>
       </div>
-      <center>
-        <h2>MagiKards</h2>
-      </center>
     </nav>
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <span>Player Name</span>
+          <div class="health-bar" data-total="1000" data-value="900">
+            <div class="bar">
+              <div class="hit"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col text-end">
+          <span>Player Name</span>
+          <div class="health-bar" data-total="1000" data-value="900">
+            <div class="bar">
+              <div class="hit"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
