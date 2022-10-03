@@ -25,6 +25,12 @@
   background-position: center;
 }
 
+.hand {
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
 .atributes {
   padding-bottom: 8px;
 }

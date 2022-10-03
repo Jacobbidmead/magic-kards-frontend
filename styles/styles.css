@@ -1,15 +1,12 @@
-body {
+/* body {
   height: 100vh;
   width: 100vw;
-}
+} */
 
 nav {
   display: inline;
 }
 
-h2 {
-  font-family: copperplate;
-}
 .health-bar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
