@@ -11,13 +11,21 @@
 }
 
 .card-body {
-  margin: 1px 0px 1px 0px;
+  margin: 2px 0px 2px 0px;
   border-radius: 10px;
   padding: 10px;
   color: white;
 }
 
-.card-img-top {
+.ice-img {
+  width: 100%;
+  border-radius: 10px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.fire-img {
   width: 100%;
   border-radius: 10px;
   height: 150px;
@@ -26,9 +34,9 @@
 }
 
 .hand {
-  height: 150px;
-  border-radius: 10px;
-  margin: 10px;
+  height: 130px;
+  margin: 20px;
+  padding: 10px;
 }
 
 .atributes {

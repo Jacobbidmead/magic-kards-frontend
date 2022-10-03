@@ -7,6 +7,12 @@ nav {
   display: inline;
 }
 
+.background {
+  background-image: url(images/background.png);
+  height: 100vh;
+  background-size: cover;
+}
+
 .health-bar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
