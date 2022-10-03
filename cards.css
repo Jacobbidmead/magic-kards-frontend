@@ -1,6 +1,9 @@
+* {
+  font-family: "Cinzel", serif;
+}
+
 .cards-background-color {
-  background-color: rgba(255, 0, 0, 0.5);
-  color: coral;
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 .card {
@@ -8,34 +11,23 @@
   margin: 40px;
   padding: 5px;
   background-image: url("https://assets.codepen.io/13471/sparkles.gif");
-}
-
-li.list-group-item {
-  background-color: rgba(255, 0, 0, 0.5);
-  border: solid 1px;
-  color: coral;
-}
-
-li {
-  border-radius: 10px;
-}
-
-.list-group {
-  border-radius: 10px;
-}
-
-.listgroupd-flush {
   border-radius: 10px;
 }
 
 .card-body {
-  border: solid 1px black;
+  border: solid 1px rgba(255, 0, 0, 0.3);
   margin: 1px 0px 1px 0px;
   border-radius: 10px;
+  color: white;
+  padding: 10px;
 }
 
 .card-img-top {
-  border: solid 1px black;
+  border: solid 1px rgba(255, 0, 0, 0.3);
   width: 100%;
   border-radius: 10px;
+}
+
+.atributes {
+  padding-bottom: 8px;
 }
