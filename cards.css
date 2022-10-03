@@ -3,7 +3,7 @@
 }
 
 .cards-background-color {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(102, 153, 204, 0.3);
 }
 
 .card {
@@ -15,15 +15,15 @@
 }
 
 .card-body {
-  border: solid 1px rgba(255, 0, 0, 0.3);
+  border: solid 1px rgba(255, 255, 255, 0.5);
   margin: 1px 0px 1px 0px;
   border-radius: 10px;
-  color: white;
   padding: 10px;
+  color: white;
 }
 
 .card-img-top {
-  border: solid 1px rgba(255, 0, 0, 0.3);
+  border: solid 1px rgba(255, 255, 255, 0.5);
   width: 100%;
   border-radius: 10px;
   height: 150px;
@@ -41,4 +41,16 @@
 
 p {
   font-size: 12px;
+}
+
+.card-img-top-fire {
+  border: solid 1px rgba(255, 0, 0, 0.3);
+}
+
+.card-body-fire {
+  border: solid 1px rgba(255, 0, 0, 0.3);
+}
+
+.cards-backgound-color-fire {
+  background-color: rgba(255, 0, 0, 0.3);
 }
