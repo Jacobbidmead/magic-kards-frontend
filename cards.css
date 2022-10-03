@@ -1,23 +1,41 @@
 .cards-background-color {
-  background-image: linear-gradient(
-    70deg,
-    rgb(28, 84, 28) 35%,
-    rgb(48, 222, 51) 70%,
-    rgb(191, 224, 192)
-  );
+  background-color: rgba(255, 0, 0, 0.5);
+  color: coral;
 }
 
 .card {
   border: solid black 1px;
   margin: 40px;
-  padding: 10px;
+  padding: 5px;
+  background-image: url("https://assets.codepen.io/13471/sparkles.gif");
 }
 
-.list-group-item {
-  background-color: blue;
+li.list-group-item {
+  background-color: rgba(255, 0, 0, 0.5);
+  border: solid 1px;
+  color: coral;
+}
+
+li {
+  border-radius: 10px;
+}
+
+.list-group {
+  border-radius: 10px;
+}
+
+.listgroupd-flush {
+  border-radius: 10px;
 }
 
 .card-body {
-  margin: 1px;
   border: solid 1px black;
+  margin: 1px 0px 1px 0px;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  border: solid 1px black;
+  width: 100%;
+  border-radius: 10px;
 }
