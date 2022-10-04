@@ -1,20 +1,24 @@
-/* body {
-  height: 100vh;
-  width: 100vw;
-} */
+* {
+  box-sizing: border-box;
+}
 
-nav {
-  display: inline;
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
 .layout {
   display: grid;
   grid-template-columns: 25% 50% 25%;
-  grid-row: 25% 50% 25%;
+}
+
+.layout > div {
+  border: 1px solid #ccc;
 }
 
 .background {
-  background-image: url(images/background.png);
+  background-image: url(../images/background.png);
   height: 100vh;
   background-size: cover;
 }
@@ -47,4 +51,27 @@ nav {
   width: 0px;
 
   transition: width 0.5s linear;
+}
+
+.hand-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.button {
+  padding: 5px 10px;
+  border: solid 1px white;
+  border-radius: 10px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+.title {
+  text-align: center;
 }

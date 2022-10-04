@@ -17,18 +17,19 @@
   </head>
   <body>
     <div class="background">
-      <nav>
-        <a href="#" class="btn btn-outline-secondary">
-          <img src="" style="width: 15px; border-radius: 100%" />Username</a
-        >
-
-        <div>MagiKards</div>
+      <nav class="layout">
         <div>
-          <a href="#" class="btn btn-outline-secondary">Quit Game</a>
+          <a href="#" class="button"> <img src="" />Username</a>
+        </div>
+        <div>
+          <div class="title">MagiKards</div>
+        </div>
+        <div>
+          <a href="#" class="button">Quit Game</a>
         </div>
       </nav>
       <div class="layout">
-        <div class="layout">
+        <div>
           <span>Player Name</span>
           <div class="health-bar" data-total="1000" data-value="900">
             <div class="bar">
@@ -37,17 +38,8 @@
           </div>
         </div>
 
-        <span>Player Name</span>
-        <div class="health-bar" data-total="1000" data-value="900">
-          <div class="bar">
-            <div class="hit"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="layout">
-        <section>
-          <div class="card" style="width: 18rem;">
+        <div class="card-table">
+          <div class="card">
             <div
               class="card-img-top ice-img ice"
               style="background-image:url(images/iceshield.png)"
@@ -67,11 +59,41 @@
               </p>
             </div>
           </div>
-        </section>
+
+          <div class="card">
+            <div
+              class="card-img-top ice-img ice"
+              style="background-image:url(images/iceshield.png)"
+            ></div>
+            <div class="card-body ice">
+              <h5 class="card-title text-center">Frost Bite</h5>
+              <p class="card-text text-center">
+                <em>
+                  A cold wind sweeps over the battle field and damages whoever
+                  it touches
+                </em>
+              </p>
+              <p class="card-text text-center atributes">
+                Damage 80<span class="fist-icon"
+                  ><i class="fa-sharp fa-solid fa-hand-fist ice"></i
+                ></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <span>Player Name</span>
+          <div class="health-bar" data-total="1000" data-value="900">
+            <div class="bar">
+              <div class="hit"></div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- hand -->
-      <div class="card-group">
+      <section class="hand-section">
         <div class="card hand">
           <img class="card-img-top" src="" />
         </div>
@@ -93,7 +115,7 @@
         <div class="card hand">
           <img class="card-img-top" src="" />
         </div>
-      </div>
+      </section>
     </div>
   </body>
 </html>
