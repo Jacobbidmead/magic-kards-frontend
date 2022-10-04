@@ -7,6 +7,12 @@ nav {
   display: inline;
 }
 
+.layout {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-row: 25% 50% 25%;
+}
+
 .background {
   background-image: url(images/background.png);
   height: 100vh;
