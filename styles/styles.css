@@ -13,9 +13,9 @@ body {
   grid-template-columns: 25% 50% 25%;
 }
 
-.layout > div {
+/* .layout > div {
   border: 1px solid #ccc;
-}
+} */
 
 .background {
   background-image: url(../images/background.png);
@@ -40,6 +40,7 @@ body {
   height: 10px;
   position: relative;
   transition: width 0.5s linear;
+	
 }
 
 .hit {
