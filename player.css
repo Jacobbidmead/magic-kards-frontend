@@ -1,0 +1,98 @@
+nav {
+  margin-bottom: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Ffire-and-ice&psig=AOvVaw1HepxKCRA4OI-MTH30gS_B&ust=1665030731089000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNCYk_6gyPoCFQAAAAAdAAAAABAI");
+}
+.title {
+  text-align: center;
+}
+
+.button {
+  padding: 5px 10px;
+  border: solid 1px white;
+  border-radius: 10px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.layout > div {
+  border: 1px solid rgb(6, 0, 0);
+}
+
+.background {
+  background-image: url(../images/background.png);
+  height: 100vh;
+  background-size: cover;
+}
+
+img {
+  width: 150px;
+  margin-left: 300px;
+}
+@import url(
+  https://fonts.googleapis.com/css?family=Orbitron:400,
+  500,
+  900,
+  700
+);
+body {
+  background-image: url("");
+  font-family: "Orbitron", sans-serif;
+}
+
+h2 {
+  font-family: "Kanit", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 3em;
+}
+
+#character-container {
+  background: url(https://wallpaperaccess.com/full/3740759.png);
+  height: 100vh;
+  background-size: cover;
+}
+
+#character-box {
+  width: 270px;
+  height: 370px;
+  float: left;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.644);
+  background-image: url("https://www.mordeo.org/files/uploads/2017/11/Brand-League-of-Legends-HD-Mobile-Wallpaper.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  margin-right: 110px;
+}
+
+#character-container img {
+  height: 170px;
+  width: 130px;
+  border: 3px groove rgb(17, 4, 34);
+  padding: none;
+  margin: 150px;
+}
+
+#character-container img:hover {
+  border-color: rgb(75, 178, 159);
+  box-shadow: 0 0 5px blue;
+}
