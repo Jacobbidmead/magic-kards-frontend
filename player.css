@@ -24,6 +24,8 @@ body {
   margin: 0;
   padding: 0;
   color: rgb(0, 0, 0);
+  height: 100vh;
+  background-size: cover;
 }
 
 .layout {
@@ -33,12 +35,6 @@ body {
 
 .layout > div {
   border: 1px solid rgb(6, 0, 0);
-}
-
-.background {
-  background-image: url(../images/background.png);
-  height: 100vh;
-  background-size: cover;
 }
 
 img {
@@ -52,7 +48,8 @@ img {
   700
 );
 body {
-  background-image: url("");
+  background-image: url(https://wallpaperaccess.com/full/3740759.png);
+  background-size: cover;
   font-family: "Orbitron", sans-serif;
 }
 
@@ -61,12 +58,6 @@ h2 {
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 3em;
-}
-
-#character-container {
-  background: url(https://wallpaperaccess.com/full/3740759.png);
-  height: 100vh;
-  background-size: cover;
 }
 
 #character-box {
