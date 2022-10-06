@@ -19,37 +19,40 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="player.css" />
+    <link rel="stylesheet" href="cards.css" />
   </head>
   <body>
-    <div class="background">
-      <nav class="layout">
-        <div>
-          <a href="#" class="button"> <img src="" />Username</a>
-        </div>
-        <div>
-          <div class="title">MagiKards</div>
-        </div>
-        <div>
-          <a href="#" class="button">Logout</a>
-        </div>
-      </nav>
+    <div class="background layout">
+      <div>
+        <a href="#" class="button"> <img src="" />Username</a>
+      </div>
+      <div>
+        <div class="title">MagiKards</div>
+      </div>
+
       <div id="character-container">
         <h2>Character Select</h2>
         <div id="character-box"></div>
-        <img src="images/fire-character.jpg" onclick="fire()" />
-        <img src="images/ice-character.jpg" onclick="ice()" />
+        <img src="images/fireshield.png" onclick="fire()" />
+        <img src="images/iceshield.jpg" onclick="ice()" />
+      </div>
+      <div id="character-container">
+        <h2>Character Select</h2>
+        <div id="character-box"></div>
+        <img src="images/fireshield.png" class="" onclick="fire()" />
+        <img src="images/iceshield.png" onclick="ice()" />
       </div>
     </div>
 
-    <script>
+    <!-- <script>
       const fire = () => {
         document.getElementById("character-box").style.backgroundImage =
           "url(https://www.mordeo.org/files/uploads/2017/11/Brand-League-of-Legends-HD-Mobile-Wallpaper.jpg)";
       };
       const ice = () => {
         document.getElementById("character-box").style.backgroundImage =
-          "url(https://i.pinimg.com/236x/34/d9/95/34d9956d1a84783aa13f7c1c70b52f6c.jpg)";
-      };
-    </script>
+          "url(https://i.pinimg.com/236x/34/d9/95/34d9956d1a84783aa13f7c1c70b52f6c.jpg)"; -->
+    <!-- }; -->
+    <!-- </script> -->
   </body>
 </html>
